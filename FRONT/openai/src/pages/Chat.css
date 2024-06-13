@@ -1,0 +1,33 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+
+  form {
+    width: 85%;
+
+    input {
+      width: 100%;
+    }
+  }
+
+  .conversation {
+    width: 85%;
+    padding: 10px;
+    box-sizing: border-box;
+
+    .user {
+      text-align: left;
+    }
+
+    .assistant {
+      text-align: right;
+    }
+
+    p span {
+      font-weight: 600;
+    }
+  }
+}
