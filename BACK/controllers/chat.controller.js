@@ -3,8 +3,8 @@ import OpenAI from "openai";
 import { ENV } from "../config/env.js";
 
 const openai = new OpenAI({
-  organization: " org-ubVO1MO768FSDwU3GR9tlAPr",
-  project: " proj_29CG0arYtkKZEuVQVZtsSQ35",
+  organization: ENV.OPEN_AI_organization,
+  project: ENV.OPEN_AI_project,
   apiKey: ENV.OPEN_AI,
 });
 
